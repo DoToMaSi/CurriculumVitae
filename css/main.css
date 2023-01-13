@@ -1,12 +1,8 @@
-@font-face {
-    font-family: 'TitilliumWeb';
-    src: url('../assets/fonts/TitilliumWeb-Regular.ttf');
-}
-
 /* Global Styles */
 
 * {
-    font-family: 'TitilliumWeb', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'Titillium Web', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 400;
 }
 
 small {
@@ -15,6 +11,10 @@ small {
 
 label {
     font-size: 14px;
+}
+
+b {
+    font-weight: 900;
 }
 
 p {
@@ -42,32 +42,68 @@ h4 {
 }
 
 h3 {
-    font-size: 24px;
+    font-size: 26px;
     padding: 0px;
     margin: 0px;
 }
 
 h2 {
-    font-size: 28px;
+    font-size: 30px;
     padding: 0px;
     margin: 0px;
 }
 
 h1 {
-    font-size: 32px;
+    font-size: 36px;
     padding: 0px;
     margin: 0px;
+}
+
+/* Utils Styles */
+
+.light-text {
+    opacity: 0.65;
 }
 
 /* Page Styles */
 #main-info {
     display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 16px;
     width: 100%;
+    border-top: 2px solid #0A0A0A;
 }
 
 #main-info #profile-pic {
-    width: 150px;
-    height: 150px;
-    background: url('../assets/images/profile-pic.jpg') center no-repeat;
+    /* flex: 1 0 auto; */
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #0A0A0A;
+    box-shadow: inset 0px 0px 0px 6px #FFFFFF;
+    background: green;
+    /* background: url('../assets/images/profile-pic.jpg') center no-repeat; */
     background-size: cover;
+}
+
+#main-info #profile-details {
+    flex: 1 1 auto;
+}
+
+#summary {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    padding: 16px;
+    width: 100%;
+    border-top: 2px solid #0A0A0A;
+}
+
+#summary #summary-text {
+    width: 65%;
+}
+
+#summary #summary-skill {
+    width: 35%;
 }
