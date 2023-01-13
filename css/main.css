@@ -5,6 +5,13 @@
     font-weight: 400;
 }
 
+body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 0px;
+}
+
 small {
     font-size: 12px;
 }
@@ -59,6 +66,12 @@ h1 {
     margin: 0px;
 }
 
+ul {
+    margin: 0px;
+    padding: 8px 0px;
+    padding-left: 20px;
+}
+
 /* Utils Styles */
 
 .light-text {
@@ -66,12 +79,19 @@ h1 {
 }
 
 /* Page Styles */
+.content-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+}
+
 #main-info {
     display: flex;
     align-items: center;
     gap: 24px;
     padding: 16px;
-    width: 100%;
+    width: 100vw;
     border-top: 2px solid #0A0A0A;
 }
 
@@ -96,14 +116,17 @@ h1 {
     align-items: center;
     gap: 24px;
     padding: 16px;
-    width: 100%;
+    width: 100vw;
     border-top: 2px solid #0A0A0A;
 }
 
 #summary #summary-text {
-    width: 65%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
 }
 
 #summary #summary-skill {
-    width: 35%;
+    width: 30%;
 }
