@@ -3,6 +3,8 @@
     src: url('../assets/fonts/TitilliumWeb-Regular.ttf');
 }
 
+/* Global Styles */
+
 * {
     font-family: 'TitilliumWeb', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -55,4 +57,17 @@ h1 {
     font-size: 32px;
     padding: 0px;
     margin: 0px;
+}
+
+/* Page Styles */
+#main-info {
+    display: flex;
+    width: 100%;
+}
+
+#main-info #profile-pic {
+    width: 150px;
+    height: 150px;
+    background: url('../assets/images/profile-pic.jpg') center no-repeat;
+    background-size: cover;
 }
