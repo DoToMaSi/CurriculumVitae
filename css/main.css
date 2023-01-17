@@ -155,7 +155,7 @@ ul {
 .timeline .timeline-item .timeline-item-pic {
     min-width: 80px;
     min-height: 80px;
-    border-radius: 50%;
+    border-radius: 10px;
     box-shadow: 0px 0px 2px 2px #FFFFFF, 0px 0px 0px 4px #0A0A0A;
     background: green;
     background-size: cover;
