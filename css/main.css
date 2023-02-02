@@ -186,17 +186,6 @@ ul {
     background-size: cover;
 }
 
-.timeline .node.first-node .timeline-item-pic::before {
-    position: absolute;
-    margin-top: 84px;
-    left: 53px;
-    width: 5px;
-    height: 100px;
-    content: " ";
-    background-color: #b5b5b5;
-    z-index: 1;
-}
-
 .timeline .node.last-node .timeline-item-pic {
     min-width: 80px;
     min-height: 80px;
@@ -204,17 +193,6 @@ ul {
     box-shadow: 0px 0px 2px 2px #FFFFFF, 0px 0px 0px 4px #0A0A0A;
     background: rgb(128, 0, 0) !important;
     background-size: cover;
-}
-
-.timeline .node.last-node .timeline-item-pic::before {
-    position: absolute;
-    margin-top: -104px;
-    left: 53px;
-    width: 5px;
-    height: 100px;
-    content: " ";
-    background-color: #b5b5b5;
-    z-index: 1;
 }
 
 .timeline .timeline-item .timeline-item-description {
@@ -226,6 +204,36 @@ ul {
 
 #faculdade-spei {
     background: url('../assets/images/faculdade-spei.jpg') center no-repeat !important;
+    background-size: cover !important;
+}
+
+#gestran {
+    background: url('../assets/images/gestran.png') center no-repeat !important;
+    background-size: cover !important;
+}
+
+#sbcredito {
+    background: url('../assets/images/sbcredito.png') center no-repeat !important;
+    background-size: cover !important;
+}
+
+#superintel {
+    background: url('../assets/images/superintel.jpg') center no-repeat !important;
+    background-size: cover !important;
+}
+
+#univision {
+    background: url('../assets/images/univision.png') center no-repeat !important;
+    background-size: cover !important;
+}
+
+#visionnaire {
+    background: url('../assets/images/visionnaire.png') center no-repeat !important;
+    background-size: cover !important;
+}
+
+#quality-sistemas {
+    background: url('../assets/images/quality-sistemas.png') center no-repeat !important;
     background-size: cover !important;
 }
 
